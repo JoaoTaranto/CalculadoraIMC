@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet">
+        <title>Calculadora IMC</title>
+    </head>
+    <body>
+
+        <main class="Calculadora"> <!-- titulo -->
+                <div class="corpo-calc">
+                    <h2 id="title">Calcule seu IMC</h2><br>
+                    <input id="nome" placeholder="Nome" type="text">
+                    <input id="peso" placeholder="Peso (KG)" type="number">
+                    <input id="altura" placeholder="Altura (M)" type="number">
+                    <input onclick="calcular()" id="calc" value="Calcular" type="submit"><br><br><br>
+                </div> <!-- corpo-calc --> 
+        </main> <!-- Calculadora -->
+                <section class="resultados">
+                    <h2 id="campoResultado"></h2>
+                    <h2 id="resultadoTabela">Verifique sua situação pela tabela abaixo:</h2><br><br><br>
+                    <img src="https://media.discordapp.net/attachments/982808169174679592/999096752957313047/unknown.png?width=794&height=563">
+                </section>  <!-- resultados -->
+
+        <script src="script.js"></script>
+    </body>
+</html>
